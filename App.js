@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Toast ref={(ref) => Toast.setRef(ref)} />
+      <Toast ref={(ref) => Toast.setRef(ref)} topOffset={50} />
     </>
   );
 }
